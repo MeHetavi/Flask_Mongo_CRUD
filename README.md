@@ -10,11 +10,11 @@
 - Send requests to http://localhost:5000/users
 
 4.API Endpoints
-- GET /users: List all users
-- GET /users/<id>: Get a specific user
-- POST /users: Create a new user
-- PUT /users/<id>: Update an existing user
-- DELETE /users/<id>: Delete a user
+- GET /users : List all users
+- GET /users/<id> : Get a specific user
+- POST /users : Create a new user
+- PUT /users/<id> : Update an existing user
+- DELETE /users/<id> : Delete a user
 
 5.Validation
 - Passwords must be at least 8 characters.
