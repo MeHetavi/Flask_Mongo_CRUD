@@ -46,6 +46,7 @@ def update_user(user_id):
 
 @user_bp.route('/users/<user_id>', methods=['DELETE'])
 def delete_user(user_id):
-    if user_service.delete_user(user_id):
-        return '', 204
+    data = user_service.delete_user(user_id)
+    if data:
+        return jsonify(data), 204
     return jsonify({'error': 'User not found'}), 404
