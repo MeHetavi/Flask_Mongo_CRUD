@@ -7,7 +7,6 @@
 - Build and run docker.
 
 3.Postman Testing
-- Import the Postman collection
 - Send requests to http://localhost:5000/users
 
 4.API Endpoints
